@@ -1,0 +1,106 @@
+body {
+  background-color: #0DAB76;
+  line-height: 1.4;
+  max-width: 500px;
+  margin: 20px auto;
+}
+h1 {
+  text-align: center;
+  color: #0DAB76;
+}
+a { 
+    color: #0068D2; 
+    cursor: pointer; 
+}
+    a:link, a:visited { 
+      text-decoration: none; 
+      color: #ffffff;
+       }
+    a:hover, a:active {
+     text-decoration: underline; 
+     color: #0068D2; 
+   }
+    body { 
+      font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+       }
+
+    #flags-table {
+     border-collapse: collapse; 
+     width: 100%
+
+
+   }
+    #flags-table, #flags-table th, #flags-table td { 
+      padding: 8px 16px; 
+      text-align: left; 
+      border: 0px solid #B9BABE; 
+    }
+    #flags-table th { 
+     
+      font-size: 14px; 
+      color: #ffffff;
+      text-transform: uppercase;
+      background: #0DAB76;
+      transform: skewX(1deg);
+
+       }
+    #flags-table td { 
+      color: #000; 
+
+    }
+    #flags-table tr:nth-child(2n) { 
+      background: #E8EDFF; 
+    }
+
+    #flags-form { 
+      padding: 10px; 
+    }
+    .text input, .button input {
+      padding: 5px; 
+      margin: 0; 
+      border: 1px solid #ccc; 
+      -moz-border-radius: 2px; 
+      -webkit-border-radius: 2px; 
+      border-radius: 2px; 
+    }
+    #flags-form .item { 
+      margin: 3px 0; 
+    }
+    #flags-form label, #flags-form .field { 
+      display: inline-block; 
+      color: #0C0B07; 
+    }
+    #flags-form label { 
+      width: 110px; 
+      font-weight: bold; 
+      text-align: right; 
+      color: #666; 
+    }
+    #flags-form .text input {
+     width: 176px; 
+     padding: 3px; 
+   }
+    #flags-form .button { 
+      display: inline-block; 
+    }
+    #flags-form .button-wrapper { 
+      padding-left: 113px; 
+    }
+    .button input { 
+      padding: 4px 8px; 
+      color: #343434; 
+      background-color: lightcyan;
+      background: -moz-linear-gradient(lightcyan, cyan); 
+      background: -webkit-gradient(linear, 0 0, 0 100%, from(lightcyan), to(cyan)); 
+    }
+
+    .button-default input { 
+      font-weight: bold; 
+      color: #fff; 
+      background-color: lightseagreen;
+      background: -moz-linear-gradient(lightseagreen, teal);         
+      background: -webkit-gradient(linear, 0 0, 0 100%, from(lightseagreen), to(teal)); 
+      border-color: #5b80b2; 
+    }
+
+   
