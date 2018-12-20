@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Google -Fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Sintony:400,700&subset=latin-ext' rel='stylesheet' type='text/css'>
+		
+<!--Font-awsome-->
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+<link rel="stylesheet" type="text/css" href="menu.css">
+
+<link rel="stylesheet" type="text/css" href="add_report.css">
+
+	<title>Add Report</title>
+
+
+        
+</head>
+<body>
+<div>
+      <ul class="menu cf">
+  <li><a href="">Corruption</a></li>
+  
+  <li><a href="user_report.html">view added report</a></li>
+  <li><a href="index.html">Log Out</a></li>
+  
+    </ul>     
+ 
+    </div>
+
+
+<form>
+  <h2>ADD REPORT</h2>
+  <div>
+  <label>REPORT TYPE</label>
+  <select>
+    <option value="REDFLAG">REDFLAG</option>
+    <option value="INTERVENTION">INTERVENTION</option>
+  </select>
+  </div>
+  <div>
+  <label>NAME</label>
+  <input type="text" required/>
+  </div>
+   <div>
+  <label>EMAIL</label>
+  <input type="text" required/>
+  </div>
+   <div>
+  <label>LOCATION</label>
+  <input type="text" required/>
+  </div>
+  <div>
+  <label>ISSUE</label>
+  <span class="subText">enter any information about the issue you want worked on</span>
+  <textarea></textarea>
+  </div>
+  <div>
+  <label>IMAGE</label>
+  <input type="file" name="pic" accept="image/*">
+  </div>
+  <br/>
+  <div>
+  <label>VIDEO </label>
+  <input type="file" name="pic" accept="video/*">
+  </div>
+  <br/>
+ <div>
+  <label>STATUS</label>
+  <select>
+    <option value="REDFLAG">PENDING</option>
+    
+  </select>
+  </div>
+  
+  <a class="submit" id="subButton">Add Report</a>
+  <div class="clear"></div>
+</form>
+</body>
+</html>

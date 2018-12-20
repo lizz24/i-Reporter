@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Google -Fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Sintony:400,700&subset=latin-ext' rel='stylesheet' type='text/css'>
+		
+<!--Font-awsome-->
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+<link rel="stylesheet" type="text/css" href="menu.css">
+
+
+<link rel="stylesheet" type="text/css" href="admin.css">
+
+	<title>Add Flag</title>
+
+
+        
+			</head>
+			<body>
+
+			
+			<div>
+			<ul class="menu cf">
+  <li><a href="">Corruption</a></li>
+  
+  <li><a href="">Add flag</a></li>
+  <li>
+    <a href="">Report</a>
+    <ul class="submenu">
+      <li><a href="interven.html">Create Intervention</a></li>
+      
+    </ul>			
+  </li>
+  <li><a href="index.html">Log Out</a></li>
+  
+  
+</ul>
+		</div>
+
+<h1>MANAGE REPORTS</h1>
+<table id="flags-table">
+    <tr id="flags-head">
+      <th>ID</th>
+      <th>Report Type</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Location</th>
+      <th>Issue</th>
+      <th>Image</th>
+      <th>status</th>
+      <th>Actions</th>
+    </tr>
+
+    <tbody>
+   <tr>
+      <td scope="row">1</td> 
+      <td scope="row">RedFlag</td> 
+      <td scope="row">Greg Leibowitz</td> 
+      <td scope="row">hailey@gmail.com</td> 
+      <td scope="row">Entebbe (East) lat 23N long 56 E</td> 
+      <td scope="row">Repair the bad road</td> 
+      <td scope="row"><img src="bad1.jpg" alt="road fix" width="200" height="100"></td> 
+      <td><select name="one" class="dropdown-select">
+      <option value="">pending</option>
+      <option value="redflag">Ressolved</option>
+      <option value="intervention">Inprogress</option>
+    </select></td>      
+      <td><input type="button" value="Delete"/></td>      
+
+    </tr>  
+    <tr>
+      <td scope="row">2</td> 
+      <td scope="row">Intervention</td> 
+      <td scope="row">Matt Johnson</td> 
+      <td scope="row">john@gmail.com</td> 
+      <td scope="row">Nakawa (East) lat 23N long 56 E</td> 
+      <td scope="row">We need gov't to give us traffic lights</td> 
+      <td scope="row"><img src="bad2.jpg" alt="road fix" width="200" height="100"></td> 
+      <td><select name="one" class="dropdown-select">
+      <option value="">pending</option>
+      <option value="redflag">Ressolved</option>
+      <option value="intervention">Inprogress</option>
+    </select></td>      
+      <td><input type="button" value="Delete"/></td>      
+
+    </tr>  
+    
+    
+        </tbody>
+  </table>
+
+  
+
+    <script type="text/javascript" src="add_flag.js"></script>
+
+</body>
+</html>
