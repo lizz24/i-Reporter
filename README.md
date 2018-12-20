@@ -2,13 +2,11 @@
 
 > iReporter enables any/every citizen to bring any form of corruption to the notice
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+
 
 Users can also report on things that needs government intervention
 
-## to view the [UI] (https://lizz24.github.io/i-Reporter/)
+## to view the UI 
 
 ## Installation
 
