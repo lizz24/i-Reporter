@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Google -Fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Sintony:400,700&subset=latin-ext' rel='stylesheet' type='text/css'>
+		
+
+<div class="container">
+<link rel="stylesheet" type="text/css" href="./css/menu.css">
+
+<link rel="stylesheet" type="text/css" href="./css/add_report.css">
+
+	<title>Add Redflag</title>
+
+
+        
+</head>
+<body>
+<div>
+      <ul class="menu cf">
+  <li><a href="user_profile.html">Profile</a></li>
+  
+  <li><a href="user_report.html">view added report</a></li>
+  <li><a href="index.html">Log Out</a></li>
+  
+    </ul>     
+ 
+    </div>
+
+
+
+<form action="user_report.html" method="post">
+      
+        <h1>CREATE RED FLAG</h1>
+        
+        <fieldset>
+          
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" required>
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email" required>
+          
+          <label for="location">Location:</label>
+          <input type="location" id="location" name="location" required>
+          
+          <fieldset>
+          <label for="bio">Comment:</label>
+          <textarea id="bio" name="user_bio"></textarea>
+
+          <label for="location">Image:</label>
+          <input type="file" name="pic" accept="image/*"><br/><br/>
+
+          <label for="location">Video:</label>
+          <input type="file" name="vid" accept="video/*">
+
+
+        </fieldset>
+
+             
+        
+        <fieldset>
+        <label for="state">Status:</label>
+        <select id="state" name="state">
+          <optgroup>
+            <option value="Pending">Pending</option>
+          </optgroup>
+        </select>
+        
+          
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+
+
+</body>
+</html>
