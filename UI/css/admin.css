@@ -79,60 +79,28 @@ a {
     #flags-form .button-wrapper { 
       padding-left: 113px; 
     }
-    .button input { 
-      padding: 4px 8px; 
-      color: #343434; 
-      background-color: lightcyan;
-      background: -moz-linear-gradient(lightcyan, cyan); 
-      background: -webkit-gradient(linear, 0 0, 0 100%, from(lightcyan), to(cyan)); 
-    }
+.button {
+  display: block;
+  position: relative;
+  float: left;
+  width: 120px;
+  padding: 0;
+  margin: 10px 20px 10px 0;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  color: #FFF;
+  border-radius: 5px;
+  transition: all 0.2s ;
+}
 
-    .button-default input { 
-      font-weight: bold; 
-      color: #fff; 
-      background-color: lightseagreen;
-      background: -moz-linear-gradient(lightseagreen, teal);         
-      background: -webkit-gradient(linear, 0 0, 0 100%, from(lightseagreen), to(teal)); 
-      border-color: #5b80b2; 
-    }
-
-    /////////////
-
-    .thumbnail {
-  position:relative;
-  display:inline-block;
-  width:100px;
-  height:100px;
-  color:white;
-  background-color:rgba(0,0,0,0.4);
-  border-radius:5px;
-  border:3px solid white;
-  box-shadow:0 2px 5px 2px rgba(0,0,0,0.2);
-  cursor:pointer;
-  margin:0 0.5em;
-  
-  background-position:center;
-  background-size:cover;
+.btnBlueGreen {
+  background: #00AE68;
 }
 
 
-
-/* This will hide the file input */
-.imagepicker input {
-  display:none;
-}
-/* This will add a floating plus symbol to an element */
-.imagepicker:before {
-  content:'+ add image';
-  position:absolute;
-  font-size:3em;
-  vertical-align:middle;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-}
-/* This will hide the plus symbol behind the background of an element if the class "picked" is added to the element */
-.imagepicker.picked:before {
-  z-index:-1;
+.btnBlueGreen.btnPush {
+  box-shadow: 0px 5px 0px 0px #007144;
 }
 
+ 
