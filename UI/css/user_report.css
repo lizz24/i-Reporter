@@ -78,21 +78,24 @@ a {
     #flags-form .button-wrapper { 
       padding-left: 113px; 
     }
-    .button input { 
-      padding: 4px 8px; 
-      color: #343434; 
-      background-color: lightcyan;
-      background: -moz-linear-gradient(lightcyan, cyan); 
-      background: -webkit-gradient(linear, 0 0, 0 100%, from(lightcyan), to(cyan)); 
-    }
+   button {
+  display: block;
+  position: relative;
+  float: left;
+  width: 120px;
+  padding: 0;
+  margin: 10px 20px 10px 0;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  color: #FFF;
+  border-radius: 5px;
+  transition: all 0.2s ;
+}
 
-    .button-default input { 
-      font-weight: bold; 
-      color: #fff; 
-      background-color: lightseagreen;
-      background: -moz-linear-gradient(lightseagreen, teal);         
-      background: -webkit-gradient(linear, 0 0, 0 100%, from(lightseagreen), to(teal)); 
-      border-color: #5b80b2; 
-    }
+.btnBlueGreen {
+  background: #00AE68;
+}
 
- 
+.btnBlueGreen.btnPush {
+  box-shadow: 0px 5px 0px 0px #007144;
