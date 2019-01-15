@@ -78,7 +78,7 @@ a {
     #flags-form .button-wrapper { 
       padding-left: 113px; 
     }
-   button {
+   .button {
   display: block;
   position: relative;
   float: left;
