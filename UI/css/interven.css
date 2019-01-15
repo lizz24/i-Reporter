@@ -24,11 +24,11 @@ h1 {
 
 input[type="text"],
 input[type="location"],
+input[type="status"],
 input[type="pic"],
 input[type="vid"],
 input[type="email"],
-textarea,
-select {
+textarea {
   background: rgba(255,255,255,0.1);
   border: none;
   font-size: 16px;
@@ -41,17 +41,6 @@ select {
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
-}
-
-input[type="radio"],
-input[type="checkbox"] {
-  margin: 0 4px 8px 0;
-}
-
-select {
-  padding: 6px;
-  height: 32px;
-  border-radius: 2px;
 }
 
 button {
@@ -72,11 +61,6 @@ button {
 fieldset {
   margin-bottom: 30px;
   border: none;
-}
-
-legend {
-  font-size: 1.4em;
-  margin-bottom: 10px;
 }
 
 label {
