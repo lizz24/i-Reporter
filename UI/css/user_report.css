@@ -84,5 +84,8 @@ h1 {
 }
 .btnBlueGreen {
   background: #00AE68;
-  hover:#C40C0C;
+ 
+}
+.btnRedGreen{
+   background: #C40C0C;
 }
