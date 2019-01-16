@@ -72,7 +72,7 @@ h1 {
   display: block;
   position: relative;
   float: left;
-  width: 120px;
+  width: 60px;
   padding: 0;
   margin: 10px 20px 10px 0;
   font-weight: 600;
@@ -82,13 +82,12 @@ h1 {
   border-radius: 5px;
   transition: all 0.2s ;
 }
-
 .btnBlueGreen {
   background: #00AE68;
 }
 
-.btnBlueGreen.btnPush {
-  box-shadow: 0px 5px 0px 0px #007144;
+.btnFade.btnBlueGreen:hover {
+  background: #21825B;
 }
 
  
